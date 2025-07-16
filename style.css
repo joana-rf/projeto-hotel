@@ -1,0 +1,282 @@
+
+
+.banner {
+    background-image: url(img/background.png);
+    width: 100%;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-section {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hero-section .container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+ul.ul-header {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+ul.ul-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.reservas {
+    background-color: #C19B76;
+    padding: 35px 20px;
+    max-width: 1146px;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+}
+
+.reserva-bloco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserva-bloco h2 {
+    margin-right: 100px;
+        margin-bottom: 0;
+}
+
+.reserva-bloco button {
+    margin-left: 20px;
+}
+
+.container-input {
+    display: flex;
+    gap: 21px;
+}
+
+.sobre-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.servico {
+    display: flex;
+    padding: 20px;
+    background-color: #F6F7F8;
+    max-width: 268px;
+    gap: 5px;
+}
+
+.box-services {
+    display: flex;
+    gap: 24px;
+}
+
+.servico img {
+    max-width: 60px;
+}
+
+.box-services.mg-30 {
+    margin-bottom: 30px;
+} 
+
+.acomodacoes-container {
+    max-width: 100%;
+    margin: 90px auto 0;
+    background-color: #F6F7F8;   
+    padding-bottom: 165px;
+    padding-top: 90px;
+ }
+
+.lista-quartos {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card-quarto img {
+    max-width: 588px;
+}
+
+.filtro-acomodacoes ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.titulo-secao {
+    margin-bottom: 73px;
+    text-align: center;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 60px;
+    background-color: #12100E;
+    gap: 40px;
+}
+
+.newsletter-texto {
+    flex: 1;
+    min-width: 300px;
+}
+
+.newsletter-texto h3 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.newsletter-texto p {
+    color: #ccc;
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.5;
+    max-width: 400px;
+}
+
+.form-newsletter {
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+    border: 1px solid #8b715c;
+}
+
+.form-newsletter input[type="email"] {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+}
+
+.form-newsletter button {
+    padding: 15px 30px;
+    background-color: #a98360;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 0 20px;
+}
+
+/* Rodapé principal */
+.footer-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #12100E;
+}
+
+.footer-logo,
+.footer-links,
+.footer-acomodacoes,
+.footer-contato {
+    flex: 1 1 200px;
+    margin: 20px;
+}
+
+.footer-logo h2 {
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.footer-social a {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-links h4,
+.footer-acomodacoes h4,
+.footer-contato h4 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-links ul,
+.footer-acomodacoes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li,
+.footer-acomodacoes li {
+    margin-bottom: 10px;
+}
+
+.footer-links a,
+.footer-acomodacoes a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover,
+.footer-acomodacoes a:hover,
+.footer-social a:hover {
+    color: #a98360;
+}
+
+.footer-contato p {
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-contato i {
+    margin-right: 10px;
+    color: #a98360;
+}
+
+/* Rodapé final */
+footer {
+    background-color: #0a0806;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    color: #777;
+}
+

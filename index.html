@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costa Serena</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="hero-section">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo-light.png.png" alt="Logo Costa Serena" class="logo-img">
+            </div>
+            <nav class="menu">
+                <ul class="ul-header">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Post Detail</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Shortcodes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="banner"></div>
+
+    <section>
+        <div class="reservas">
+            <div class="booking-form">
+                <form class="form-reserva">
+                    <div class="reserva-bloco">
+
+                        <h2>Reservas</h2>
+
+
+                        <div class="container-input">
+                            <div class="entrada-saida">
+                                <p>Entrada/Saída</p>
+                                <input type="date" name="entrada">
+                                <input type="date" name="saida">
+                            </div>
+                            <div class="quarto">
+                                <p>Quarto</p>
+                                <select name="quarto">
+                                    <option>1 Quarto</option>
+                                    <option>2 Quartos</option>
+                                </select>
+                            </div>
+
+                            <div class="adulto">
+                                <p>Adulto</p>
+                                <select name="adulto">
+                                    <option>1 Adulto</option>
+                                    <option>2 Adultos</option>
+                                </select>
+                            </div>
+                            <div class="crianca">
+                                <p>Criança</p>
+                                <select name="crianca">
+                                    <option>0 Criança</option>
+                                    <option>1 Criança</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-container">
+        <div class="sobre-texto">
+            <h2><span>Sobre</span></h2>
+
+            <h3>We will be so proud to be our guest.Lorem Ipsum is simply dummy text of the printing.</h3>
+            <p>
+                Nosso hotel une conforto, sofisticação e bem-estar para tornar sua estadia inesquecível.
+                Aqui, cada detalhe foi pensado para você relaxar e aproveitar ao máximo.
+            </p>
+
+            <div class="icones-servicos">
+                <div class="box-services mg-30">
+                    <div class="servico">
+                        <img src="img/Container.svg" alt="Restaurante">
+                        <div class="servico-text">
+                            <h4>Restaurante</h4>
+                            <p>Sabores únicos em um ambiente acolhedor</p>
+                        </div>
+                    </div>
+                    <div class="servico">
+                        <img src="img/Icon.svg" alt="Wellness & Spa">
+                        <div class="servico-text">
+                            <h4>Wellness & Spa</h4>
+                            <p>Relaxe corpo e mente com nossos tratamentos exclusivos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-services">
+                    <div class="servico">
+                        <img src="img/Container (1).svg" alt="Wi-Fi">
+                        <div class="servico-text">
+                            <h4>Free Wifi</h4>
+                            <p>Internet de alta velocidade em todos os ambientes</p>
+                        </div>
+                    </div>
+                    <div class="servico">
+                        <img src="img/Icon (1).svg" alt="Espaço de jogos">
+                        <div class="servico-text">
+                            <h4>Espaço de jogos</h4>
+                            <p>Diversão garantida para todas as idades</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn-saiba-mais">SAIBA MAIS</button>
+        </div>
+
+        <div class="sobre-imagem">
+            <img src="img/Background-2.png" alt="Quarto do hotel">
+        </div>
+    </section>
+
+
+    <section class="acomodacoes-container">
+
+        <h2 class="titulo-secao">Acomodações</h2>
+
+
+        <nav class="filtro-acomodacoes">
+            <ul>
+                <li><a href="#" class="ativo">Todos</a></li>
+                <li><a href="#">Casal</a></li>
+                <li><a href="#">Solteiro</a></li>
+                <li><a href="#">Suíte</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="lista-quartos">
+
+            <!-- Quarto 1 -->
+            <div class="card-quarto">
+                <img src="img/Group 1.jpg" alt="Quarto Casal 01">
+                <div class="">
+                    <div class="">
+                        <h3>Casal 01</h3>
+                        <p class="preco">R$ 299,00/NOITE</p>
+                        <p class="info-quarto">
+                            <span class="info-item">
+                                <img src="img/Vector.jpg" alt="Tamanho" class="icone-quarto"> 30m²
+                            </span>
+                            <span class="info-item">
+                                <img src="img/Icon.jpg" alt="Adultos" class="icone-quarto"> Adultos: 3
+                            </span>
+                        </p>
+                    </div>
+                    <button class="btn-saiba-mais">SAIBA MAIS</button>
+                </div>
+            </div>
+            <!-- Quarto 2 -->
+            <div class="card-quarto">
+                <img src="img/Group 2.jpg" alt="Quarto Solteiro 01">
+                <h3>Solteiro 01</h3>
+                <p class="preco">R$ 199,00/NOITE</p>
+                <p class="info-quarto">
+                    <span class="info-item">
+                        <img src="img/Vector.jpg" alt="Tamanho" class="icone-quarto"> 30m²
+                    </span>
+                    <span class="info-item">
+                        <img src="img/Icon.jpg" alt="Adultos" class="icone-quarto"> Adultos: 3
+                    </span>
+                </p>
+                <button class="btn-saiba-mais">SAIBA MAIS</button>
+            </div>
+
+            <!-- Quarto 3 -->
+            <div class="card-quarto">
+                <img src="img/Group 3.jpg" alt="Quarto Casal 02">
+                <h3>Casal 02</h3>
+                <p class="preco">R$ 299,00/NOITE</p>
+                <p class="info-quarto">
+                    <span class="info-item">
+                        <img src="img/Vector.jpg" alt="Tamanho" class="icone-quarto"> 30m²
+                    </span>
+                    <span class="info-item">
+                        <img src="img/Icon.jpg" alt="Adultos" class="icone-quarto"> Adultos: 3
+                    </span>
+                </p>
+                <button class="btn-saiba-mais">SAIBA MAIS</button>
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer-container">
+
+        <!-- Newsletter -->
+        <div class="newsletter">
+            <div class="newsletter-texto">
+                <h3>NEWSLETTER</h3>
+                <p>Never Miss Anything From Construx By Signing Up To Our Newsletter.</p>
+            </div>
+
+            <form class="form-newsletter">
+                <input type="email" placeholder="Digite seu email" required>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+
+        <!-- Bloco inferior com colunas -->
+        <div class="footer-conteudo">
+
+            <!-- Logo e descrição -->
+            <div class="footer-logo">
+                <img src="img/logo-light.png (1).png" alt="Logo Sharam" class="logo-sharam">
+                <p>
+                    Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us
+                    the most beautiful house great looks.
+                </p>
+                <div class="footer-social">
+                    <a href="#"><img src="img/Icon (3).svg" alt="Facebook"></a>
+                    <a href="#"><img src="img/Icon (2).svg" alt="wifi"></a>
+                    <a href="#"><img src="img/Vector.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="img/Item → Link (1).svg" alt="Google Plus"></a>
+                    <a href="#"><img src="img/Item → Link.svg" alt="Instagram"></a>
+                </div>
+            </div>
+
+            <!-- Links -->
+            <div class="footer-links">
+                <h4>LINKS</h4>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Portfólio</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- Acomodações -->
+            <div class="footer-acomodacoes">
+                <h4>ACOMODAÇÕES</h4>
+                <ul>
+                    <li><a href="#">Classic</a></li>
+                    <li><a href="#">Superior</a></li>
+                    <li><a href="#">Delux</a></li>
+                    <li><a href="#">Master</a></li>
+                    <li><a href="#">Luxury</a></li>
+                    <li><a href="#">Salões de Eventos</a></li>
+                </ul>
+            </div>
+
+            <!-- Contato -->
+            <div class="footer-contato">
+                <h4>FALE CONOSCO</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 92 Princess Road, parkvenue,Greater London, NW18JR, United
+                    Kingdom</p>
+                <p><i class="fas fa-envelope"></i> sharandemo@gmail.com</p>
+                <p><i class="fas fa-phone-alt"></i> (+0091) 912-3456-073</p>
+                <p><i class="fas fa-phone-alt"></i> (+0091) 912-3456-084</p>
+            </div>
+
+        </div>
+
+        <!-- Créditos finais -->
+        <div class="footer-copy">
+            <p>© 2024 Your Company. Designed By Teste.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
